@@ -1,0 +1,75 @@
+.bodySection {
+  padding-block: 100px;
+}
+.commonSection {
+  padding-inline: 100px;
+}
+.title1 {
+  font-size: 4vmax;
+  font-weight: bold;
+}
+.section1TitleView {
+  text-align: left;
+  width: 400px;
+}
+.cursorImageView {
+  background-color: #f2f7f7;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 50px;
+  flex-direction: column;
+  transition: 0.3s;
+  transform: scale(0.8);
+}
+.cursorImageView:hover {
+  background-color: #036068;
+  cursor: pointer;
+  border: solid 1px rgba(128, 128, 128, 0.444);
+  box-shadow: 10px 10px 10px #00000082;
+}
+.cursorImageView:active {
+  transform: scale(0.9);
+}
+.cursorImageView:hover .coursesImage {
+  mix-blend-mode: plus-lighter;
+  transform: scale(1.2);
+}
+.cursorImageView:hover .coursesTitle {
+  color: #75e5ec;
+}
+.coursesImage {
+  transition: 0.3s;
+  width: 40%;
+}
+.coursesTitle {
+  font-size: 2.5vmin;
+  margin-top: 10px;
+  color: grey;
+}
+@media (max-width: 975px) {
+  .commonSection {
+    padding: 50px;
+  }
+  .bodySection {
+    padding-block: 0px;
+  }
+  .section1TitleView {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .cursorImageView {
+    height: 180px;
+    margin-top: 00px;
+  }
+}
+@media (max-width: 400px) {
+  .cursorImageView {
+    height: 100px;
+    margin-top: 00px;
+  }
+}
