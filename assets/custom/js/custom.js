@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  "use strict";
+  ("use strict");
   // wow
   new WOW({
     mobile: false,
@@ -13,6 +13,9 @@ $(document).ready(function () {
   $(".carousel-items-3").owlCarousel({
     margin: 20,
     loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     navText: [
       '<span class="fables-iconarrow-left"></span>',
       '<span class="fables-iconarrow-right"></span>',
@@ -26,30 +29,6 @@ $(document).ready(function () {
       },
       768: {
         items: 3,
-      },
-    },
-  });
-
-  // 3 items carousel carousel-items-3
-  $(".carousel-items-4").owlCarousel({
-    margin: 20,
-    loop: true,
-    navText: [
-      '<span class="fables-iconarrow-left"></span>',
-      '<span class="fables-iconarrow-right"></span>',
-    ],
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      768: {
-        items: 3,
-      },
-      1000: {
-        items: 4,
       },
     },
   });
@@ -331,18 +310,18 @@ $(document).ready(function () {
 
   // multi event gallery timeLine
 
-  $(".timeline").timelify({
-    // animation types
-    animLeft: "bounceInLeft",
-    animRight: "bounceInRight",
-    animCenter: "bounceInUp",
+  // $(".timeline").timelify({
+  //   // animation types
+  //   animLeft: "bounceInLeft",
+  //   animRight: "bounceInRight",
+  //   animCenter: "bounceInUp",
 
-    // animation speed
-    animSpeed: 1500,
+  //   // animation speed
+  //   animSpeed: 1500,
 
-    // trigger position in pixels
-    offset: 150,
-  });
+  //   // trigger position in pixels
+  //   offset: 150,
+  // });
 });
 
 function JaMap() {
@@ -375,3 +354,30 @@ function animatecounters() {
     $this.countTo(options);
   }
 }
+
+let scrollButton = document.getElementById("scrollButton");
+let headerLogo = document.getElementById("headerLogoStyle");
+window.onscroll = function () {
+  scrollFunction();
+};
+function scrollFunction() {
+  if (
+    document.documentElement.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    scrollButton.style.display = "block";
+    headerLogo.style.width = "100px";
+  } else {
+    scrollButton.style.display = "none";
+    headerLogo.style.width = "150px";
+  }
+}
+function scrollTopFunction() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+$(function () {
+  $(".closePopup").click(function () {
+    $(".topHeaderBackground").css({ display: "none" });
+  });
+});

@@ -2,7 +2,7 @@
 <!-- animate.css-->
 
 <html>
-  <header>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="assets/vendor/animate.css-master/animate.min.css"
@@ -56,13 +56,14 @@
     <link href="assets/custom/css/custom-responsive.css" rel="stylesheet" />
     <!-- CUSTOM CSS FILE -->
     <link href="./css/headerStyle.css" rel="stylesheet" />
+    <link href="./css/footerStyle.css" rel="stylesheet" />
     <link href="./css/indexStyle.css" rel="stylesheet" />
     <link href="./css/fixedStyle.css" rel="stylesheet" />
-  </header>
+  </head>
 
   <body>
     <!-- Header Screen -->
-    <header>
+    <div class="Header stickyHeader">
       <!-- Loading Screen -->
       <div id="ju-loading-screen">
         <div class="sk-double-bounce">
@@ -78,7 +79,9 @@
         <div class="container-fluid">
           <div class="topHeaderTitle fontSize12">
             Get Ready For canada education fair on 11th june
-            <i class="fa fa-times closeTopHeader clickHoverEffect"></i>
+            <i
+              class="fa fa-times closeTopHeader clickHoverEffect closePopup"
+            ></i>
           </div>
         </div>
       </div>
@@ -91,12 +94,20 @@
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
               <nav class="navbar navbar-expand-md btco-hover-menu">
-                <a class="navbar-brand pl-0" href="index.html"
+                <!-- <a class="navbar-brand pl-0" href="index.html"
                   ><img
                     src="./images/svg/logo.svg"
                     class="headerLogo"
                     alt="Logo"
+                /></a> -->
+                <a class="navbar-brand pl-0" href="index.html"
+                  ><img
+                    src="./images/edugenLogo.png"
+                    class="headerLogo"
+                    id="headerLogoStyle"
+                    alt="Logo"
                 /></a>
+
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -128,7 +139,7 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link" href="#">
-                        <button class="customButton ieltsButton">IELTS</button>
+                        <button class="ieltsButton">IELTS</button>
                       </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -216,19 +227,19 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link" href="#">
-                        <button class="customButton expertButton">
-                          Talk With Expert
-                        </button>
+                        <button class="expertButton">Talk With Expert</button>
                       </a>
                     </li>
                     <!-- Main Header Content -->
                   </ul>
 
-                  <img
-                    src="./images/callIcon.png"
-                    class="width35px headerIcons"
-                    alt="Call Icon"
-                  />
+                  <a href="tel:+919355119700">
+                    <img
+                      src="./images/callIcon.png"
+                      class="width35px headerIcons"
+                      alt="Call Icon"
+                    />
+                  </a>
                   <img
                     src="./images/userIcon.png"
                     class="width35px headerIcons"
@@ -242,7 +253,7 @@
         </div>
       </div>
       <!-- /End Fables Navigation -->
-    </header>
+    </div>
     <!-- Header Screen -->
 
     <!-- Body Section -->
@@ -250,23 +261,26 @@
       <!-- First Section -->
       <div class="section1 commonSection container-fluid">
         <div class="flexDirectionRowSpace columnReverseMobile">
-          <div class="section1TitleView">
+          <div class="section1TitleView wow fadeInLeft">
             <p class="title1 textCapitalize">Fulfill Your study abroad dream</p>
             <button
               class="customButton expertButton width220px fontSize15 bold marginTop20"
             >
-              Get Your Shortlist Free
+              Explore Opportunities
             </button>
           </div>
           <div class="center">
-            <img src="./images/homeImage.png" class="width100pc" />
+            <img
+              src="./images//svg/homeImage.svg"
+              class="width100pc wow fadeIn"
+            />
+            <!-- <img src="./images/homeImage.png" class="width100pc" /> -->
           </div>
         </div>
       </div>
       <!-- First Section -->
 
       <!-- Courses Section -->
-
       <div class="section2 marginTop100 mobileMarginTop0">
         <div class="center">
           <!-- <img src="./images/popularCourses.png" class="width100pc" /> -->
@@ -328,11 +342,9 @@
           </button>
         </div>
       </div>
-
       <!-- Courses Section -->
 
       <!-- Result Section -->
-
       <div
         class="fables-index-products large-mb fables-after-overlay py-4 py-md-5 mt-md-5 bg-rules marginTop50 sliderSectionView"
         style="background-image: url(./images//backImage.jpeg)"
@@ -350,7 +362,7 @@
           >
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
@@ -360,77 +372,25 @@
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                <h5 class="card-title mx-3">
-                  <a
-                    href="#"
-                    class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                    >dress fashion</a
-                  >
-                </h5>
-                <p class="card-text fables-fifth-text-color font-15 mx-3">
-                  LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                </p>
-                <p
-                  class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                >
-                  $ 98.00
-                </p>
-                <p class="fables-product-info">
-                  <a
-                    href="#"
-                    class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                  >
-                    <span class="fables-iconcart"></span>
-                    <span class="fables-btn-value">ADD TO CART</span></a
-                  >
-                </p>
-              </div> -->
               </div>
             </div>
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
                   <img
                     class="card-img-top rounded-0 w-100"
-                    src="./images/eduLogo.png"
+                    src="./images/homeImage.png"
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                <h5 class="card-title mx-3">
-                  <a
-                    href="#"
-                    class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                    >dress fashion</a
-                  >
-                </h5>
-                <p class="card-text fables-fifth-text-color font-15 mx-3">
-                  LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                </p>
-                <p
-                  class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                >
-                  $ 98.00
-                </p>
-                <p class="fables-product-info">
-                  <a
-                    href="#"
-                    class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                  >
-                    <span class="fables-iconcart"></span>
-                    <span class="fables-btn-value">ADD TO CART</span></a
-                  >
-                </p>
-              </div> -->
               </div>
             </div>
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
@@ -440,42 +400,56 @@
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                <h5 class="card-title mx-3">
-                  <a
-                    href="#"
-                    class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                    >dress fashion</a
-                  >
-                </h5>
-                <p class="card-text fables-fifth-text-color font-15 mx-3">
-                  LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                </p>
-                <p
-                  class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                >
-                  $ 98.00
-                </p>
-                <p class="fables-product-info">
-                  <a
-                    href="#"
-                    class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                  >
-                    <span class="fables-iconcart"></span>
-                    <span class="fables-btn-value">ADD TO CART</span></a
-                  >
-                </p>
-              </div> -->
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/homeImage.png"
+                    alt="dress fashion"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/eduLogo.png"
+                    alt="dress fashion"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/eduLogo.png"
+                    alt="dress fashion"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <!-- Result Section -->
 
       <!-- Achievers Section -->
-
       <div
         class="py-4 py-md-5 mt-md-5 bg-rules sliderSectionView2 marginTop150 mobileMarginTop0"
       >
@@ -488,12 +462,13 @@
               </h2>
             </div>
           </div>
+
           <div
             class="owl-carousel owl-theme dots-0 circle-nav carousel-items-3 marginTop0"
           >
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
@@ -503,77 +478,25 @@
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                  <h5 class="card-title mx-3">
-                    <a
-                      href="#"
-                      class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                      >dress fashion</a
-                    >
-                  </h5>
-                  <p class="card-text fables-fifth-text-color font-15 mx-3">
-                    LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                  </p>
-                  <p
-                    class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                  >
-                    $ 98.00
-                  </p>
-                  <p class="fables-product-info">
-                    <a
-                      href="#"
-                      class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                    >
-                      <span class="fables-iconcart"></span>
-                      <span class="fables-btn-value">ADD TO CART</span></a
-                    >
-                  </p>
-                </div> -->
               </div>
             </div>
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
                   <img
                     class="card-img-top rounded-0 w-100"
-                    src="./images/eduLogo.png"
+                    src="./images/homeImage.png"
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                  <h5 class="card-title mx-3">
-                    <a
-                      href="#"
-                      class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                      >dress fashion</a
-                    >
-                  </h5>
-                  <p class="card-text fables-fifth-text-color font-15 mx-3">
-                    LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                  </p>
-                  <p
-                    class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                  >
-                    $ 98.00
-                  </p>
-                  <p class="fables-product-info">
-                    <a
-                      href="#"
-                      class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                    >
-                      <span class="fables-iconcart"></span>
-                      <span class="fables-btn-value">ADD TO CART</span></a
-                    >
-                  </p>
-                </div> -->
               </div>
             </div>
             <div
               class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
-              data-wow-delay="1.2s"
+              data-wow-delay=".4s"
             >
               <div class="row">
                 <div class="fables-product-img col-12">
@@ -583,46 +506,62 @@
                     alt="dress fashion"
                   />
                 </div>
-                <!-- <div class="card-body col-12">
-                  <h5 class="card-title mx-3">
-                    <a
-                      href="#"
-                      class="fables-main-text-color fables-store-product-title fables-second-hover-color"
-                      >dress fashion</a
-                    >
-                  </h5>
-                  <p class="card-text fables-fifth-text-color font-15 mx-3">
-                    LUIS LEATHER DRIVING MOCCASINS FROM ... DOUBLE
-                  </p>
-                  <p
-                    class="font-weight-bold fables-second-text-color my-2 mb-3 mx-3"
-                  >
-                    $ 98.00
-                  </p>
-                  <p class="fables-product-info">
-                    <a
-                      href="#"
-                      class="btn fables-second-border-color fables-second-text-color fables-btn-rouned fables-hover-btn-color font-14 px-4 py-2"
-                    >
-                      <span class="fables-iconcart"></span>
-                      <span class="fables-btn-value">ADD TO CART</span></a
-                    >
-                  </p>
-                </div> -->
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/homeImage.png"
+                    alt="dress fashion"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/eduLogo.png"
+                    alt="dress fashion"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-0 mb-4 border-light wow fadeIn marginTop50 sliderSection"
+              data-wow-delay=".4s"
+            >
+              <div class="row">
+                <div class="fables-product-img col-12">
+                  <img
+                    class="card-img-top rounded-0 w-100"
+                    src="./images/eduLogo.png"
+                    alt="dress fashion"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <!-- Achievers Section -->
 
       <!-- University Section -->
-
       <div
         class="fables-light-background-color py-4 center marginTop0 marginTop50"
       >
-        <h2 class="font-35 font-weight-bold primaryColor marginTop20">
+        <h2
+          class="font-35 font-weight-bold primaryColor marginTop20 wow fadeIn"
+        >
           Meet 100+ Universities over the world
         </h2>
 
@@ -654,15 +593,13 @@
           </div>
         </div>
       </div>
-
       <!-- University Section -->
 
       <!-- Events Section -->
-
       <div class="commonSection wow fadeIn marginTop50 mobileMarginTop0">
         <div class="flexDirectionRowSpace columnFlexMobile">
           <div>
-            <p>
+            <p class="centerPhone">
               Meet 1:1 with top university representatives get on spot
               assessment,
               <br />
@@ -681,9 +618,247 @@
           <hr style="border-top: 1px solid #6d6b6b; width: 70%" />
         </div>
       </div>
-
       <!-- Events Section -->
+
+      <!-- Social Section -->
+      <div class="commonSection wow fadeIn marginTop30 mobileMarginTop0">
+        <div class="flexDirectionRowSpace center">
+          <p class="fontSize30 bold primaryColor">Our Social Media</p>
+        </div>
+
+        <div class="socialSection row container-fluid">
+          <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+            <div class="socialInnerSection">
+              <div
+                class="fb-page socialMediaSection"
+                data-href="https://www.facebook.com/edugenstudy/"
+                data-tabs="timeline"
+                data-width="350"
+                data-height="300"
+                data-small-header="false"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/edugenstudy/"
+                  class="fb-xfbml-parse-ignore"
+                >
+                  <a href="https://www.facebook.com/edugenstudy/"
+                    >Edugen Study Abroad Consultants</a
+                  >
+                </blockquote>
+              </div>
+            </div>
+            <div class="socialIcons center">
+              <a target="_blank" href="https://www.facebook.com/edugenstudy/">
+                <img
+                  src="./images/social/facebook.png"
+                  class="socialImageIcon clickHoverEffect"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+            <div class="socialInnerSection">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/edugen6/"
+                data-instgrm-version="14"
+              ></blockquote>
+            </div>
+            <div class="socialIcons center">
+              <a target="_blank" href="https://www.instagram.com/edugen6/">
+                <img
+                  src="./images/social/instagram.png"
+                  class="socialImageIcon clickHoverEffect"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+            <div class="socialInnerSection">
+              <a
+                class="twitter-timeline"
+                data-width="350"
+                data-height="300"
+                href="https://twitter.com/EdugenC?ref_src=twsrc%5Etfw"
+                >Tweets by EdugenC</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div class="socialIcons center">
+              <a target="_blank" href="https://twitter.com/EdugenC">
+                <img
+                  src="./images/social/twitter.png"
+                  class="socialImageIcon clickHoverEffect"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+            <div class="socialInnerSection">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/-zQ4V6Esbw4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="socialIcons center">
+              <a target="_blank" href="https://www.youtube.com/@HeyEdugen">
+                <img
+                  src="./images/social/youtube.png"
+                  class="socialImageIcon clickHoverEffect"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Social Section -->
+
+      <!-- Social Section -->
+      <div class="commonSection wow fadeIn marginTop30 mobileMarginTop0">
+        <div class="center">
+          <p class="primaryColor">
+            Your one stop solution for IELTS & Study Abroad
+          </p>
+        </div>
+        <div
+          class="flexDirectionRowSpaceAround columnReverseMobile marginTop50"
+        >
+          <img
+            src="./images/edugenLogo.png"
+            class="headerLogo wow zoomIn"
+            alt="Logo"
+          />
+          <p
+            class="fontSize30 bold primaryColor center wow zoomIn"
+            style="font-family: cursive"
+          >
+            Make your Dream A Reality!!
+          </p>
+        </div>
+      </div>
+      <!-- Social Section -->
     </div>
+    <!-- Body Section -->
+
+    <!-- Footer Screen -->
+    <div class="mainFooter container-fluid">
+      <div class="commonSection footerSection row">
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">About Edugen</p>
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Who we Are ?</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Join our Team</p></a
+          >
+        </div>
+
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">Study Abroad</p>
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Study In Canada</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Study In USA</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Study In Australia</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Study in UK</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Study In New Zealand</p></a
+          >
+        </div>
+
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">IELTS</p>
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Book Demo Class</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">IELTS Reality Test</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">
+              IELTS Portal Registration
+            </p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Preparation Tips</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">FAQs</p></a
+          >
+        </div>
+
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">Important Links</p>
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">Currency Converter</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">World Time Converter</p></a
+          >
+          <a class="anchorTag" href=""
+            ><p class="footerSectionBody wow fadeIn">World Map</p></a
+          >
+        </div>
+
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">Office Location</p>
+          <a
+            class="anchorTag"
+            target="_blank"
+            href="https://goo.gl/maps/SYqsJA5qDC94DzJ57"
+            ><p class="footerSectionBody wow fadeIn">
+              <span class="fontSize15 bold"> New Delhi <br /> </span>
+              C-707, Shiksha Bharti School Rd, near Ramphal Chowk Road, Block C,
+              Sector 7 Dwarka, Delhi, 110075
+            </p></a
+          >
+        </div>
+
+        <div class="footerSection col-md-2 col-6">
+          <p class="footerSectionTitle wow fadeIn">Call Us</p>
+          <a class="anchorTag" href="tel:+919355119700"
+            ><p class="footerSectionBody wow fadeIn">+91-9355119700</p></a
+          >
+          <p class="footerSectionTitle wow fadeIn">General Enquiries</p>
+          <a class="anchorTag" href="mailto:info@edugenstudy.com"
+            ><p class="footerSectionBody wow fadeIn">info@edugenstudy.com</p></a
+          >
+        </div>
+
+        <div class="copyRight width100pc">
+          <p class="center">Copyright Ⓒ 2022, Edugen. All rights reserved.</p>
+        </div>
+      </div>
+
+      <div id="scrollButton">
+        <div onclick="scrollTopFunction()" class="ScrollToTop clickHoverEffect">
+          <i class="fa fa-chevron-up"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Screen -->
+
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -695,6 +870,15 @@
     <!-- <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script> -->
     <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
     <script src="assets/custom/js/custom.js"></script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"
+      nonce="dbQIwOmH"
+    ></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/youtube.xml&amp;up_channel=aaaa&amp;synd=open&amp;w=320&amp;h=390&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
     <!-- <script src="assets/vendor/video-background/jquery.mb.YTPlayer.js"></script> -->
     <!-- <script>$(".player").mb_YTPlayer();</script> -->
   </body>

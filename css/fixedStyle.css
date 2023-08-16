@@ -17,6 +17,18 @@ body {
 .fontSize12 {
   font-size: 12px;
 }
+.fontSize15 {
+  font-size: 15px;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+.fontSize25 {
+  font-size: 25px;
+}
+.fontSize30 {
+  font-size: 30px;
+}
 .width70pc {
   width: 70%;
 }
@@ -58,6 +70,9 @@ body {
 }
 .marginTop20 {
   margin-top: 20px !important;
+}
+.marginTop30 {
+  margin-top: 30px !important;
 }
 .marginTop50 {
   margin-top: 50px;
@@ -114,6 +129,12 @@ body {
   border: none;
   border-radius: 100px;
 }
+.customButton:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.457);
+}
+.customButton:active {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.679);
+}
 .flexDirectionRow {
   display: flex;
   flex-direction: row;
@@ -124,6 +145,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.flexDirectionRowSpaceAround {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 .bold {
   font-weight: bold;
@@ -144,10 +171,19 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
 }
+.anchorTag {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 975px) {
   .columnReverseMobile {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .centerPhone {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .columnFlexMobile {
     display: flex;

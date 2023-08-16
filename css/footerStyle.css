@@ -1,0 +1,49 @@
+.ScrollToTop {
+  z-index: 9999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 12px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+  background-color: #036068;
+}
+.ScrollToTop:hover {
+  background-color: white;
+  border: solid 2px #036068;
+  color: #036068;
+}
+.footerSection {
+  background-color: #2c2d4b !important;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.footerSection {
+  font-size: 12px;
+  color: white;
+}
+.footerSectionTitle {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #b6b6b6;
+}
+.footerSectionBody {
+  padding-block: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footerSectionBody:hover {
+  transform: scale(1.1);
+  color: #75e5ec;
+}
+.footerSectionBody:active {
+  transform: scale(0.95);
+}

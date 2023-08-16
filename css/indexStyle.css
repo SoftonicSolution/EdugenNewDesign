@@ -51,9 +51,9 @@
 }
 .searchSection {
   position: absolute;
-  margin-left: 2%;
+  margin-left: 4%;
   margin-top: -7%;
-  width: 100%;
+  width: 95%;
 }
 .searchTextField {
   width: 30% !important;
@@ -71,6 +71,25 @@
 .searchIcon {
   margin-left: -35px;
   color: white;
+}
+.socialSection {
+  padding-block: 20px;
+  background-image: url(../images/backImage.jpeg);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.socialMediaSection {
+  width: 100%;
+  overflow: scroll;
+}
+.socialInnerSection {
+  max-height: 300px;
+  overflow: scroll;
+}
+.socialImageIcon {
+  width: 50px;
+  padding-block: 20px;
+  transition: 0.3s;
 }
 @media (max-width: 975px) {
   .commonSection {
@@ -94,7 +113,6 @@
   }
   .searchSection {
     margin-top: -9%;
-    margin-left: 0%;
   }
   .searchIcon {
     margin-left: -25px;
