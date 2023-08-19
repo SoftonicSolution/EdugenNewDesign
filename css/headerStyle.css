@@ -101,6 +101,52 @@
 }
 .headerSection {
   overflow: hidden;
+  padding-block: 20px;
+}
+.textFieldIcon {
+  color: #036068;
+  position: absolute;
+  margin-top: 22px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.commonInputField {
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border: solid 1px #0360689b;
+  padding-left: 50px;
+}
+.commonInputField::placeholder {
+  color: #0360689b;
+  font-size: 12px;
+}
+.formModal {
+  padding-block: 20px;
+  border-radius: 10px;
+  background-image: url("/images/contactBanner.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.formCloseButton {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 15px;
+}
+.contactImage {
+  width: 100%;
+}
+.row {
+  margin-right: -0px !important;
+  margin-left: -0px !important;
+}
+.textareaInput {
+  resize: none;
 }
 @media (min-width: 768px) {
   .fables-header-icons {
@@ -115,5 +161,8 @@
 @media (max-width: 768px) {
   .fables-nav {
     align-items: flex-start !important;
+  }
+  .contactImage {
+    width: 65%;
   }
 }

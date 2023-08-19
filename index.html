@@ -50,6 +50,7 @@
       href="assets/vendor/owlcarousel/owl.theme.default.min.css"
       rel="stylesheet"
     />
+
     <!-- FABLES CUSTOM CSS FILE -->
     <link href="assets/custom/css/custom.css" rel="stylesheet" />
     <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
@@ -59,11 +60,96 @@
     <link href="./css/footerStyle.css" rel="stylesheet" />
     <link href="./css/indexStyle.css" rel="stylesheet" />
     <link href="./css/fixedStyle.css" rel="stylesheet" />
+    <link href="./css/modalStyles.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- Header Screen -->
     <div class="Header stickyHeader">
+      <!-- Contact Us Modal Screen -->
+      <div class="contactUsForm">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content" style="background-color: #f1f5f8">
+              <div class="formModal">
+                <i
+                  class="fa fa-times close formCloseButton"
+                  data-dismiss="modal"
+                ></i>
+                <div class="headerSection row container-fluid">
+                  <div class="col-md-5 col-12 contactFirstSection center flex">
+                    <img class="contactImage" src="./images/contact.png" />
+                  </div>
+                  <div class="col-md-7 col-12 center">
+                    <h1 class="bold center primaryColor fontSize5vmin">
+                      Get In Touch With Us
+                    </h1>
+
+                    <div>
+                      <i class="fa fa-user textFieldIcon"></i>
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        name="name"
+                        class="commonInputField"
+                      />
+                    </div>
+                    <div>
+                      <i class="fa fa-phone textFieldIcon"></i>
+                      <input
+                        type="number"
+                        placeholder="Contact"
+                        name="contact"
+                        class="commonInputField"
+                      />
+                    </div>
+                    <div>
+                      <i class="fa fa-envelope textFieldIcon"></i>
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        name="email"
+                        class="commonInputField"
+                      />
+                    </div>
+                    <div>
+                      <i class="fa fa-map-marker textFieldIcon"></i>
+                      <input
+                        type="text"
+                        placeholder="Address"
+                        name="address"
+                        class="commonInputField"
+                      />
+                    </div>
+                    <div>
+                      <i class="fa fa-comment textFieldIcon"></i>
+                      <textarea
+                        type="text"
+                        placeholder="Message"
+                        name="message"
+                        class="commonInputField textareaInput"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12 right centerPhone marginTop20">
+                    <button
+                      class="customButton expertButton width220px fontSize15 bold marginTop20 mobileMarginTop0"
+                      data-dismiss="modal"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Us Modal Screen -->
+
       <!-- Loading Screen -->
       <div id="ju-loading-screen">
         <div class="sk-double-bounce">
@@ -89,7 +175,7 @@
       <!-- /End Top Header -->
 
       <!-- Start Fables Navigation -->
-      <div class="fables-navigation fables-main-background-color">
+      <div class="fables-navigation fables-main-background-color overflowHide">
         <div class="container-fluid">
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
@@ -227,7 +313,13 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link" href="#">
-                        <button class="expertButton">Talk With Expert</button>
+                        <button
+                          data-toggle="modal"
+                          data-target="#myModal"
+                          class="expertButton"
+                        >
+                          Talk With Expert
+                        </button>
                       </a>
                     </li>
                     <!-- Main Header Content -->
@@ -621,7 +713,7 @@
       <!-- Events Section -->
 
       <!-- Social Section -->
-      <div class="commonSection wow fadeIn marginTop30 mobileMarginTop0">
+      <!-- <div class="commonSection wow fadeIn marginTop30 mobileMarginTop0">
         <div class="flexDirectionRowSpace center">
           <p class="fontSize30 bold primaryColor">Our Social Media</p>
         </div>
@@ -725,7 +817,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Social Section -->
 
       <!-- Social Section -->
