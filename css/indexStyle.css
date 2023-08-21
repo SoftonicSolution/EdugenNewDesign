@@ -1,5 +1,5 @@
 .bodySection {
-  padding-block: 100px;
+  padding-block: 50px;
 }
 .commonSection {
   padding-inline: 100px;
@@ -81,6 +81,7 @@
 .socialMediaSection {
   width: 100%;
   overflow: scroll;
+  flex-direction: column;
 }
 .socialInnerSection {
   max-height: 300px;
@@ -91,10 +92,20 @@
   padding-block: 20px;
   transition: 0.3s;
 }
-
+/* Google Review */
+.huflDf {
+  text-transform: capitalize;
+}
+.Main__Container-sc-1w4nyzp-0 {
+  padding: 20px !important;
+}
+.eapps-widget-toolbar {
+  display: none !important;
+}
+/* Google Review */
 @media (max-width: 975px) {
   .commonSection {
-    padding: 50px;
+    padding: 25px;
   }
   .bodySection {
     padding-block: 0px;

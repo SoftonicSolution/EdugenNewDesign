@@ -1,5 +1,6 @@
 .stickyHeader {
   position: sticky;
+  width: 100%;
   top: 0;
   z-index: 99999 !important;
 }
@@ -126,12 +127,11 @@
 .formModal {
   padding-block: 20px;
   border-radius: 10px;
-  background-image: url("/images/contactBanner.webp");
+  background: url("/images/contactBanner.webp");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .formCloseButton {
   position: absolute;
   right: 10px;
@@ -148,6 +148,7 @@
 .textareaInput {
   resize: none;
 }
+
 @media (min-width: 768px) {
   .fables-header-icons {
     text-align: right;

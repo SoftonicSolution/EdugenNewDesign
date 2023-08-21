@@ -1,0 +1,120 @@
+/*----------------chooseus start--------------*/
+.chooseus {
+	width: 100%;
+}
+
+/*----------------chooseus start--------------*/
+
+/*---------------- top header --------------*/
+.social_media_icon {
+	display: inline-block;
+}
+.btn5 {
+	margin-right: 30px;
+}
+.login-btn_href {
+    display: block;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 150px;
+    top: 55px;
+    z-index: 1;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.login-btn_href h2.btn5 {
+     margin: 0 15px!important;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    padding: 0;
+    color: #267871;
+}
+.login-btn_href h2.btn5 span.fa-angle-down {
+    float: right;
+}
+.pr_div_ { 
+	position: relative;
+}
+.dwroup_menu {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.pr_div_:hover > .dwroup_menu {
+	opacity: 1!important;
+	visibility: visible!important;
+	top: -62px;
+	transition: 0.5s;
+}
+.dwroup_menu ul {
+    border: 1px solid #fff;
+    background: #fff;
+    width: 150px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+}
+.dwroup_menu ul li {
+    color: #000;
+    display: block;
+    transition: 0.5s;
+}
+.dwroup_menu ul li a:hover {
+	padding-left: 18px;
+	transition: 0.5s;
+}
+.dwroup_menu ul li a {
+    color: #267871;
+    display: block;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+.dwroup_menu ul li:first-child {
+	border-bottom: 1px solid #26787163;
+}
+.login-btn_href:hover span.fa-angle-down {
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+
+
+/*---------------- top header --------------*/
+
+/*---------------- video section --------------*/
+.video_div {
+	background-image: url(../images/video.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 100px 0;
+}
+
+.video_div video.vide_tag {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-centersdad {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+/*---------------- vide section --------------*/

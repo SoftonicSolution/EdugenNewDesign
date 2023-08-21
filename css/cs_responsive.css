@@ -1,0 +1,736 @@
+/* ------------------- min-with ---------------- */
+@media only screen and (min-width: 992px) {
+  .login-menu_hh1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .card1 {
+    margin-top: 50px;
+  }
+  .why {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+    padding: 0;
+    text-decoration: none !important;
+  }
+  .card2 {
+    margin-top: 100px;
+  }
+}
+/* ------------------- min-with ---------------- */
+
+/* ----------------- max-weith: 576px ---------------- */
+@media only screen and (max-width: 1024px) {
+  .column1 {
+    width: 50%;
+  }
+  .column {
+    width: 50%;
+  }
+  .cardser1 {
+    width: 90%;
+  }
+  .cardser0 {
+    width: 90%;
+  }
+  .cardser2 {
+    width: 90%;
+  }
+  .cardser3 {
+    width: 90%;
+  }
+  .cardser4 {
+    width: 90%;
+  }
+  .cardser5 {
+    width: 90%;
+  }
+  .cardser6 {
+    width: 90%;
+  }
+  .cardser7 {
+    width: 90%;
+  }
+  .cardser8 {
+    width: 90%;
+  }
+  .cardser1 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser1 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cardser1 img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    z-index: 9;
+    padding: 5px;
+    border: 1px solid #267871;
+    border-radius: 10px;
+  }
+  .cardser2 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser2 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser2 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser3 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser3 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser3 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser4 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser4 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser4 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser5 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser5 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser5 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser6 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser6 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser6 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser7 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser7 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+    margin-left: 0 !important;
+  }
+  .cardser7 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser8 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser8 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+    margin-left: 0 !important;
+  }
+  .cardser8 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .edugen {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    height: 112px;
+    line-height: 112px;
+  }
+  .login-btn_href {
+    display: block;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 125px;
+    top: 110px;
+    z-index: 1;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+  .login-btn_href h2.btn5 {
+    margin: 0 5px !important;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    padding: 0;
+    color: #267871;
+  }
+  .pr_div_:hover > .dwroup_menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -20px;
+    transition: 0.5s;
+  }
+  .dwroup_menu ul {
+    border: 1px solid #fff;
+    background: #fff;
+    width: 125px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+
+  .dwroup_menu ul li {
+    color: #000;
+    display: block;
+    padding: 5px 5px;
+    transition: 0.5s;
+    line-height: 1;
+  }
+  .dwroup_menu ul li a {
+    color: #267871;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .contact {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px !important;
+  }
+  .contact a {
+    font-size: 10px;
+  }
+  .contact i.fa {
+    font-size: 15px;
+  }
+  .mobile-logo_href {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-logo_href > img {
+    margin-left: 0;
+  }
+  .social_media_icon {
+    display: block;
+    text-align: center;
+    width: 100%;
+    clear: both;
+  }
+  li.oldNav-item a {
+    margin: 8px 15px;
+    padding: 0;
+    font-size: 14px;
+  }
+  .oldNavbar-collapse {
+    position: relative !important;
+  }
+  .oldNav.oldNavbar.oldNavbar-expand-lg.oldNavbar-light.bg-white {
+    justify-content: space-around;
+  }
+  .why {
+    padding: 15px;
+    display: block;
+  }
+  .login-btn_href {
+    display: block;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 125px;
+    top: 0px;
+    z-index: 1;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+  .login-btn_href h2.btn5 {
+    margin: 0 5px !important;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    padding: 0;
+    color: #267871;
+  }
+  .pr_div_:hover > .dwroup_menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -176px;
+    transition: 0.5s;
+  }
+  .dwroup_menu ul {
+    border: 1px solid #fff;
+    background: #fff;
+    width: 125px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+
+  .dwroup_menu ul li {
+    color: #000;
+    display: block;
+    padding: 5px 5px;
+    transition: 0.5s;
+    line-height: 1;
+  }
+  .dwroup_menu ul li a {
+    color: #267871;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .login-menu_hh1 {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .login-menu_hh1 .dropdown-menu {
+    width: 200px !important;
+  }
+  .login-menu_hh1 .dropdown-menu a {
+    padding: 0 15px;
+  }
+  #oldNavbarSupportedContent1 {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 30px 0;
+  }
+  .login-menu_hh1 .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #267871;
+    border-color: #267871;
+  }
+  .mobile_hide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card1 {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+  }
+  .FixedImage1 {
+    width: 100%;
+    height: 15rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+  }
+  .TextStyle {
+    padding: 22px;
+    font-size: 15px;
+  }
+  .FixedDiv {
+    transform: rotate(0);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .FixedImage {
+    transform: rotate(0);
+    position: unset;
+    width: 100%;
+    display: block;
+    top: unset;
+    left: unset;
+    height: auto;
+  }
+  .FixedText {
+    position: unset;
+    top: unset;
+    left: unset;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 30px 15px;
+  }
+  .our {
+    margin: 0;
+    padding: 30px 0;
+    font-size: 28px;
+  }
+  .service {
+    margin: 0;
+    padding: 75px 0;
+  }
+  .cardser1 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser1 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cardser1 img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    z-index: 9;
+    padding: 5px;
+    border: 1px solid #267871;
+    border-radius: 10px;
+  }
+  .cardser2 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser2 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser2 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser3 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser3 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser3 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser4 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser4 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser4 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser5 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser5 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser5 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser6 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser6 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser6 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser7 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser7 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser7 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cardser8 {
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    padding: 30px 15px !important;
+    margin: auto;
+  }
+  .cardser8 img {
+    height: 70px !important;
+    width: 70px !important;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
+    border: 1px solid #267871 !important;
+    border-radius: 10px !important;
+    transform: rotate(0deg) !important;
+  }
+  .cardser8 h3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .edugen {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    height: 112px;
+    line-height: 112px;
+  }
+  .container_process_inner .offset-4 {
+    margin: 0;
+  }
+  .container-process {
+    background-image: url(../images/process.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .goal {
+    margin: 30px;
+  }
+  .goal h3 {
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .get {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #060d32;
+    margin: 0px 15px 30px 15px;
+  }
+  #fbpost {
+    display: flex;
+    justify-content: center;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .cardser0 {
+    width: 250px;
+  }
+  .column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .login-btn_href {
+    display: block;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 125px;
+    top: 0px;
+    z-index: 1;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+  .login-btn_href h2.btn5 {
+    margin: 0 5px !important;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    padding: 0;
+    color: #267871;
+  }
+  .pr_div_:hover > .dwroup_menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -176px;
+    transition: 0.5s;
+  }
+  .dwroup_menu ul {
+    border: 1px solid #fff;
+    background: #fff;
+    width: 125px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  }
+
+  .dwroup_menu ul li {
+    color: #000;
+    display: block;
+    padding: 5px 5px;
+    transition: 0.5s;
+    line-height: 1;
+  }
+  .dwroup_menu ul li a {
+    color: #267871;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}

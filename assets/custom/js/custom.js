@@ -13,7 +13,7 @@ $(document).ready(function () {
   $(".carousel-items-3").owlCarousel({
     margin: 20,
     loop: true,
-    autoplay: true,
+    // autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     navText: [
@@ -354,30 +354,3 @@ function animatecounters() {
     $this.countTo(options);
   }
 }
-
-let scrollButton = document.getElementById("scrollButton");
-let headerLogo = document.getElementById("headerLogoStyle");
-window.onscroll = function () {
-  scrollFunction();
-};
-function scrollFunction() {
-  if (
-    document.documentElement.scrollTop > 200 ||
-    document.documentElement.scrollTop > 200
-  ) {
-    scrollButton.style.display = "block";
-    headerLogo.style.width = "100px";
-  } else {
-    scrollButton.style.display = "none";
-    headerLogo.style.width = "150px";
-  }
-}
-function scrollTopFunction() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-}
-
-$(function () {
-  $(".closePopup").click(function () {
-    $(".topHeaderBackground").css({ display: "none" });
-  });
-});
