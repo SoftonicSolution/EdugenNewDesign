@@ -98,7 +98,7 @@
 
   <div id="scrollButton">
     <div onclick="scrollTopFunction()" class="ScrollToTop clickHoverEffect">
-      <i class="fa fa-chevron-up"></i>
+      <i class="fa fa-chevron-up" style="font-size:15px"></i>
     </div>
   </div>
 </div>

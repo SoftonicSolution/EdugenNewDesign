@@ -4,6 +4,7 @@ include 'header.php';
 ?>
 <style>
     .topnav {
+padding-block: 20px;
   overflow: hidden;
   background-color: #fff;
 }

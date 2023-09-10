@@ -16,16 +16,15 @@
 
     <!-- First Section -->
     <div class="section1 commonSection container-fluid">
-      <div class="flexDirectionRowSpace columnReverseMobile">
-        <div class="section1TitleView wow fadeInLeft">
+    <div class="flexDirectionRowSpace columnReverseMobile">
+        <div class="section1TitleView wow fadeInLeft ">
           <p class="title1 textCapitalize">Fulfill Your study abroad dream</p>
           <button class="customButton expertButton width220px fontSize15 bold marginTop20">
           Get your shortlist free
           </button>
         </div>
         <div class="center">
-          <img src="./images//svg/homeImage.svg" class="width100pc wow fadeIn" />
-          <!-- <img src="./images/homeImage.png" class="width100pc" /> -->
+          <img src="./images//svg/homeImage.svg" class="width85pc wow fadeIn" />
         </div>
       </div>
     </div>
@@ -73,42 +72,49 @@
       <div class="center commonSection row container-fluid">
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/design.svg" class="coursesImage" /> -->
             <img src="./images/cources/design.png" class="coursesImage" />
             <p class="coursesTitle">Design</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/computer.svg" class="coursesImage" /> -->
             <img src="./images/cources/computer.png" class="coursesImage" />
             <p class="coursesTitle">Computer Science</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/architect.svg" class="coursesImage" /> -->
             <img src="./images/cources/architect.png" class="coursesImage" />
             <p class="coursesTitle">Architect</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/business.svg" class="coursesImage" /> -->
             <img src="./images/cources/business.png" class="coursesImage" />
             <p class="coursesTitle">Business</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
-            <img src="./images/cources/science.png" class="coursesImage" />
+            <!-- <img color='red' src="./images/cources/science.svg" class="coursesImage" /> -->
+            <img color='red' src="./images/cources/science.png" class="coursesImage" />
             <p class="coursesTitle">Science</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/law.svg" class="coursesImage" /> -->
             <img src="./images/cources/law.png" class="coursesImage" />
             <p class="coursesTitle">Law</p>
           </div>
         </div>
         <div class="col-md-3 col-6 wow zoomIn">
           <div class="cursorImageView">
+            <!-- <img src="./images/cources/health.svg" class="coursesImage" /> -->
             <img src="./images/cources/health.png" class="coursesImage" />
             <p class="coursesTitle">Health</p>
           </div>
@@ -230,17 +236,17 @@
     <div class="commonSection wow fadeIn marginTop50 mobileMarginTop0">
       <div class="flexDirectionRowSpace columnFlexMobile">
         <div>
-          <p class="centerPhone">
+          <p class="centerPhone verdanaFont">
           <ul>
-            <li>
+            <li class="verdanaFont">
               <img src="./images//svg/check.svg" class="width20px wow fadeIn" />
               Meet 1:1 with top University Representatives
             </li>
-            </i>
+            <li class="verdanaFont">
             <img src="./images//svg/check.svg" class="width20px wow fadeIn" />
             Get on Spot Assessment
             </li>
-            <li>
+            <li class="verdanaFont">
               <img src="./images//svg/check.svg" class="width20px wow fadeIn" />
               Secure on-the-spot offers and scholarships with one click
             </li>
@@ -254,7 +260,7 @@
           </button>
         </div>
       </div>
-      <div class="center marginTop50">
+      <div class="center flex marginTop50">
         <hr style="border-top: 1px solid #6d6b6b; width: 70%" />
       </div>
     </div>
@@ -275,6 +281,32 @@
               </blockquote>
             </div>
           </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+          <div class="socialInnerSection">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/edugen6/" data-instgrm-version="14"></blockquote>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+          <div class="socialInnerSection">
+            <a class="twitter-timeline" data-width="350" data-height="300" href="https://twitter.com/EdugenC?ref_src=twsrc%5Etfw">Tweets by EdugenC</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>          
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+          <div class="socialInnerSection">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-zQ4V6Esbw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>          
+        </div>
+      </div>
+
+
+      <div class="row container-fluid socialIconSection">
+        <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
+          
           <div class="socialIcons center">
             <a target="_blank" href="https://www.facebook.com/edugenstudy/">
               <img src="./images/social/facebook.png" class="socialImageIcon clickHoverEffect" />
@@ -283,9 +315,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
-          <div class="socialInnerSection">
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/edugen6/" data-instgrm-version="14"></blockquote>
-          </div>
+          
           <div class="socialIcons center">
             <a target="_blank" href="https://www.instagram.com/edugen6/">
               <img src="./images/social/instagram.png" class="socialImageIcon clickHoverEffect" />
@@ -294,10 +324,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
-          <div class="socialInnerSection">
-            <a class="twitter-timeline" data-width="350" data-height="300" href="https://twitter.com/EdugenC?ref_src=twsrc%5Etfw">Tweets by EdugenC</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
+          
           <div class="socialIcons center">
             <a target="_blank" href="https://twitter.com/EdugenC">
               <img src="./images/social/twitter.png" class="socialImageIcon clickHoverEffect" />
@@ -306,9 +333,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6 col-12 socialMediaSection" id="fbpost">
-          <div class="socialInnerSection">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-zQ4V6Esbw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
+          
           <div class="socialIcons center">
             <a target="_blank" href="https://www.youtube.com/@HeyEdugen">
               <img src="./images/social/youtube.png" class="socialImageIcon clickHoverEffect" />
@@ -328,7 +353,7 @@
       </div>
       <div class="flexDirectionRowSpaceAround columnReverseMobile marginTop50">
         <img src="./images/edugenLogo.png" class="headerLogo wow zoomIn" alt="Logo" />
-        <p class="fontSize30 bold primaryColor center wow zoomIn" style="font-family: cursive">
+        <p class="fontSize30 bold primaryColor center wow zoomIn" style="font-family: Dancing Script">
           Make your Dream A Reality!!
         </p>
       </div>

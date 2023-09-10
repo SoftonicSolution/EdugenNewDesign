@@ -46,6 +46,9 @@ body {
 .width80pc {
   width: 80%;
 }
+.width85pc {
+  width: 85%;
+}
 .width100pc {
   width: 100%;
 }
@@ -156,10 +159,13 @@ body {
   border-radius: 100px;
 }
 .customButton:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.457);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.457);
 }
 .customButton:active {
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.679);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.457);
+}
+.flex {
+  display: flex;
 }
 .flexDirectionRow {
   display: flex;
@@ -222,7 +228,22 @@ body {
 .hidden {
   display: none;
 }
+.marginLeft100 {
+  margin-left: -100px !important;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.verdanaFont {
+  font-family: Verdana;
+}
 @media (max-width: 975px) {
+  .padding0Mobile {
+    padding: 0 !important;
+  }
   .columnReverseMobile {
     display: flex;
     flex-direction: column-reverse;
@@ -245,6 +266,9 @@ body {
   .mobileMarginTop20 {
     margin-top: 20px !important;
   }
+  .mobileMarginTop10 {
+    margin-top: 10px !important;
+  }
   .marginBottomMobile50 {
     margin-bottom: 50px !important;
   }
@@ -252,5 +276,12 @@ body {
 @media (max-width: 768px) {
   .width100pcMobile {
     width: 100% !important;
+  }
+  .mobileViewColumn {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .marginLeft100 {
+    margin-left: 0px !important;
   }
 }

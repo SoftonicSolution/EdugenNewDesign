@@ -6,6 +6,7 @@
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
   <!-- Font Awesome 5 -->
   <link href="assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" />
   <!-- Fables Icons -->
@@ -195,7 +196,8 @@
               <span class="fables-iconmenu-icon font-16"></span>
             </button>
             <div class="collapse navbar-collapse" id="fablesNavDropdown">
-              <ul class="navbar-nav mx-auto fables-nav">
+              <ul class="navbar-nav mx-auto fables-nav flexDirectionRowSpace width100pc mobileViewColumn">
+                <div class="flexDirectionRow mobileViewColumn">
                 <!-- Main Header Content -->
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="index.php"> Home </a>
@@ -373,16 +375,49 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#">
-                    <button data-toggle="modal" data-target="#myContactModal" class="expertButton">Talk With Expert</button>
+                    <button data-toggle="modal" data-target="#myContactModal" class="expertButton customExpertButton">Talk With Expert</button>
                   </a>
                 </li>
                 <!-- Main Header Content -->
+
+                </div>
+
+                <div class="flexDirectionRow mobileViewColumn">
+
+              <a href="tel:+919355119700" class="padding0Mobile">
+                <img src="./images/callIcon.png" class="width50px headerIcons copyCode" alt="Call Icon" />
+              </a>
+
+
+              <!-- <ul class="navbar-nav mx-auto fables-nav"> -->
+              <!-- <li class="nav-item dropdown"> -->
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="sub-nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./images/userIcon.png" class="width50px headerIcons loginIcon" alt="User Icon" />
+                    </a>
+                  <ul class="dropdown-menu marginLeft100" aria-labelledby="sub-nav4">
+                    <li>
+                      <a class="dropdown-item" href="https://www.edugenstudy.net/admin/authentication">Staff Login</a>                      
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://www.edugenstudy.net/authentication/login">Student Login</a>                      
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Login</a>                      
+                    </li>                  
+                  </ul>
+
+                </li>
+                </div>
+
+
               </ul>
 
-              <a href="tel:+919355119700">
-                <img src="./images/callIcon.png" class="width35px headerIcons copyCode" alt="Call Icon" />
-              </a>
-              <img src="./images/userIcon.png" class="width35px headerIcons" alt="User Icon" />
+
+              <!-- </li> -->
+              <!-- </ul> -->
+              
               <div style="height: 50px"></div>
             </div>
           </nav>
@@ -396,7 +431,7 @@
 
 <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
 <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script> -->
 <script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
 <!-- <script src="assets/vendor/timeline/jquery.timelify.js"></script> -->
 <!-- <script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script> -->
